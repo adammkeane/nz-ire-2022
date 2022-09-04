@@ -11,25 +11,24 @@
 </head>
 <body>
     <header>
-        <h1>Ireland's 2022 Rugby Tour of New Zealand</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Test 1 - Auckland</a>
-                </li>
-                <li>
-                    <a href="#">Test 2 - Dunedin</a>
-                </li>
-                <li>
-                    <a href="#">Test 3 - Wellington</a>
-                </li>
-                <li>
-                    <a href="#">Sign Up</a>
-                </li>
-            </ul>
+        
+        <nav class="top-nav">
+            <div class="seen-nav">
+            <h1 class="active">Ireland's 2022 Rugby Tour of New Zealand</h1>
+             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+             </a>
+             </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                    <a href="index.html"><strong>Home</strong></a>
+                    <a href="#"><strong>First Test - Auckland</strong></a>
+                    <a href="#"><strong>Second Test - Dunedin</strong></a>
+                    <a href="#"><strong>Third Test - Wellington</strong></a>
+                    <a href="#"><strong>Sign Up</strong></a>
+            </div>
+           
         </nav>
     </header>
     <section>
@@ -42,5 +41,8 @@
         sign up
     </section>
     <footer>footer content, social media accounts</footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/6b27cf5798.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script> 
 </body>
 </html>
