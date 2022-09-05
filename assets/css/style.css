@@ -164,8 +164,17 @@ footer ul {
     margin-bottom: 3rem;
 }
 
-.test-section-child h2 {
+.test-section-child a {
     margin-top: 3rem;
     margin-bottom: 0.5rem;
     max-width: 90%;
+}
+
+.test-section-child a:hover {
+    color:#00BD6E;
+}
+
+.test-section-child a {
+        color:#ffffff;
+        text-decoration: none;
 }
