@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    background-color: #000000;
 }
 
  /* Style the navigation menu */
@@ -66,4 +68,16 @@ body {
     display: flex;
     justify-content: space-evenly;
     background-color: #000000;
+}
+
+/* home image */
+
+#home-image {
+    width: 75%;
+    height: 40rem;
+    background: url(../images/home-image.png) no-repeat;
+    background-size: contain;
+    display: flex;
+    margin: 3rem 1rem;
+    border-radius: 4px;
 }
