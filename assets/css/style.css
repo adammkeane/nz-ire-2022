@@ -97,3 +97,25 @@ body {
 hr {
     color:#ffffff;
 }
+
+/* footer styling */
+
+footer li {
+    list-style: none;
+}
+
+footer a{
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+footer a:hover {
+    color:#00BD6E;
+}
+
+footer ul {
+    display: flex;  
+    justify-content: center;
+    margin: 3rem 2rem;
+}
