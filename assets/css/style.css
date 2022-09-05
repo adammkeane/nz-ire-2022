@@ -12,14 +12,22 @@ body {
     background-color: #000000;
 }
 
-.test-section-child hr {
+p {
+    font-size: 1.2rem;
+}
+
+hr {
     background-color: #ffffff;
     border: 0;
     clear:both;
     display:block;
     width: 6rem;               
     height: 1px;
-    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.underline-link {
+    text-decoration: underline;
 }
 
  /* Style the navigation menu */
@@ -47,6 +55,8 @@ body {
     padding-bottom: 0;
     display: flex;
     font-size: 1rem;
+    border-top: #00BD6E dotted 1px;
+    border-bottom: #00BD6E dotted 1px;
   }
 
   /* Style the hamburger menu */
@@ -80,7 +90,7 @@ body {
     background-color: #000000;
 }
 
-/* home image */
+/* home main images and text*/
 
 #home-image1 {
     width: 90%;
@@ -88,6 +98,7 @@ body {
     background: url(../images/all-blacks-logo.png) no-repeat center center;
     background-size: contain;
     margin: 2rem 0;
+    max-width: 60vw;
 }
 
 #home-image2 {
@@ -96,6 +107,7 @@ body {
     background: url(../images/irfu-logo.png) no-repeat center center;
     background-size: contain;
     margin-top: 2rem;
+    max-width: 50vw;
 }
 
 .home-images {    
@@ -151,7 +163,7 @@ footer ul {
     border-radius: 10px;
     height: 40vh;
     width: 50rem;
-    max-width: 70%;
+    max-width: 70vw;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -161,13 +173,18 @@ footer ul {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .test-section-child a {
     margin-top: 3rem;
     margin-bottom: 0.5rem;
     max-width: 90%;
+    text-align: center;
+}
+
+.test-section-child h2 {
+    margin-bottom: 0.5rem;
 }
 
 .test-section-child a:hover {
@@ -178,3 +195,58 @@ footer ul {
         color:#ffffff;
         text-decoration: none;
 }
+
+/* homepage signup section */
+
+#sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#sign-up p {
+    max-width: 70%;
+    text-align: center;
+}
+
+#sign-up a {
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#sign-up a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#sign-up a:hover {
+    color:#00BD6E;
+}
+
+#sign-up .underline-link {
+    text-decoration: underline;
+}
+
+
+/* homepage media queries */
+
+@media (max-width: 700px) {
+    .active {
+        justify-content: center;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #home-test1, #home-test2, #home-test3 {
+        height: 20vh;
+    }
+
+}
+        
