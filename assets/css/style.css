@@ -72,12 +72,28 @@ body {
 
 /* home image */
 
-#home-image {
-    width: 75%;
-    height: 40rem;
-    background: url(../images/home-image.png) no-repeat;
+#home-image1 {
+    width: 90%;
+    height: 20vh;
+    background: url(../images/all-blacks-logo.png) no-repeat center center;
     background-size: contain;
+    margin: 2rem 0;
+}
+
+#home-image2 {
+    width: 90%;
+    height: 24vh;
+    background: url(../images/irfu-logo.png) no-repeat center center;
+    background-size: contain;
+    margin: 2rem 0;
+}
+
+.home-images {    
     display: flex;
-    margin: 3rem 1rem;
-    border-radius: 4px;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    color:#ffffff;
 }
