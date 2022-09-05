@@ -166,6 +166,12 @@ footer ul {
     max-width: 70vw;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-color: #00BD6E;
+    border: 1px solid #000000;
+}
+
+#home-test1:hover, #home-test2:hover, #home-test3:hover {
+    border:#00BD6E 1px solid;
 }
 
 .test-section-child {
@@ -195,6 +201,11 @@ footer ul {
         color:#ffffff;
         text-decoration: none;
 }
+
+.test-section-child a:hover ~ #home-test1{
+    border:#00BD6E 1px solid;
+}
+
 
 /* homepage signup section */
 
@@ -247,6 +258,5 @@ footer ul {
     #home-test1, #home-test2, #home-test3 {
         height: 20vh;
     }
-
 }
         
