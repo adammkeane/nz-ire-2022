@@ -139,11 +139,11 @@ footer ul {
 }
 
 #home-test2 {
-    background: url(../images/dunedin.jpg) no-repeat;
+    background: url(../images/dunedin.jpg) no-repeat center center;
 }
 
 #home-test3 {
-    background: url(../images/wellington.jpg) no-repeat;
+    background: url(../images/wellington.jpg) no-repeat center center;
 }
 
 #home-test1, #home-test2, #home-test3 {
