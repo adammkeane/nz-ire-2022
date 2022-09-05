@@ -94,10 +94,6 @@ body {
     align-items: center;
 }
 
-hr {
-    color:#ffffff;
-}
-
 /* footer styling */
 
 footer li {
@@ -118,4 +114,42 @@ footer ul {
     display: flex;  
     justify-content: center;
     margin: 3rem 2rem;
+}
+
+/* homepage test match section */
+
+#home-test1 {
+    background: url(../images/auckland.jpg) no-repeat center center;
+    
+}
+
+#home-test2 {
+    background: url(../images/dunedin.jpg) no-repeat;
+    margin-top:
+}
+
+#home-test3 {
+    background: url(../images/wellington.jpg) no-repeat;
+}
+
+#home-test1, #home-test2, #home-test3 {
+    background-size: cover;
+    border-radius: 4px;
+    height: 40vh;
+    width: 50rem;
+    max-width: 70%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.test-section-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.test-section-child h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
