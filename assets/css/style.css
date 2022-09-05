@@ -296,3 +296,18 @@ footer ul {
     height: 100%;
 }
 
+/* map section of test match page */
+
+.map-wrapper {
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.maps {
+    height: 40vh;
+    width: 60vw;
+    border: none;
+}
