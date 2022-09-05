@@ -12,6 +12,16 @@ body {
     background-color: #000000;
 }
 
+.test-section-child hr {
+    background-color: #ffffff;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 20%;               
+    height: 1px;
+    margin-top: 4rem;
+}
+
  /* Style the navigation menu */
  .top-nav {
     overflow: hidden;
@@ -34,7 +44,7 @@ body {
   }
 
   #myLinks {
-    padding-bottom: 1.5rem;
+    padding-bottom: 0;
     display: flex;
     font-size: 1rem;
   }
@@ -126,12 +136,10 @@ footer ul {
 
 #home-test1 {
     background: url(../images/auckland.jpg) no-repeat center center;
-    
 }
 
 #home-test2 {
     background: url(../images/dunedin.jpg) no-repeat;
-    margin-top:
 }
 
 #home-test3 {
