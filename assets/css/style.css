@@ -260,3 +260,39 @@ footer ul {
     }
 }
         
+/* test match pages CSS */
+
+.yt-title {
+    text-align: center;
+}
+
+.yt-title h2 {
+    font-size: 1.3rem;
+}
+
+.yt-embed {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%;
+    margin-top: 2vh;
+}
+
+#yt-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
