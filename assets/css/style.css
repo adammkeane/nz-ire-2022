@@ -264,6 +264,10 @@ footer ul {
 
 .yt-title {
     text-align: center;
+    border-top: #00BD6E 1px solid;
+    border-bottom: #00BD6E 1px solid;
+    padding: 0.3rem;
+    
 }
 
 .yt-title h2 {
@@ -294,20 +298,49 @@ footer ul {
     right: 0;
     width: 100%;
     height: 100%;
+    background-color: #00BD6E;
 }
 
 /* map section of test match page */
 
-.map-wrapper {
+#map-section {
     display: flex;
-    margin: 3rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    margin-top: 3rem;
+}
+
+
+.map-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    padding-top: 30%;
+    margin-top: 2vh;
 }
 
 .maps {
-    height: 40vh;
-    width: 60vw;
-    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00BD6E;
 }
+
+/* test match pages media queries */
+
+@media (max-width: 700px) {
+    .yt-title h2 {
+        font-size: 1rem;
+    }
+
+    .yt-title p {
+        font-size: 0.7rem;
+    }
+    
+}
+       
