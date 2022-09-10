@@ -30,57 +30,61 @@ hr {
     text-decoration: underline;
 }
 
- /* Style the navigation menu */
- .top-nav {
+/* Style the navigation menu */
+nav {
+    margin-bottom: 1rem;
+}
+
+.top-nav {
     overflow: hidden;
     background-color: #000000;
     position: relative;
     color: #00BD6E;
-  }
+}
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .top-nav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .top-nav a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 0.5rem 1rem;
-  }
+/* Hide the links inside the navigation menu (except for logo/home) */
+.top-nav #myLinks {
+display: none;
+}
 
-  #myLinks {
-    padding-bottom: 0;
-    display: flex;
-    font-size: 1rem;
-    border-top: #00BD6E dotted 1px;
-    border-bottom: #00BD6E dotted 1px;
-  }
+/* Style navigation menu links */
+.top-nav a {
+color: white;
+text-decoration: none;
+display: block;
+padding: 0.5rem 1rem;
+}
 
-  /* Style the hamburger menu */
-  .top-nav a.icon {
-        display: flex;
-        font-size: 2rem;
-        padding: 1rem;
-        justify-content: center;
-        align-items: center;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .top-nav a:hover {
-    color: #00BD6E;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    width: 100%;
+#myLinks {
+padding-bottom: 0;
+display: flex;
+font-size: 1rem;
+border-top: #00BD6E dotted 1px;
+border-bottom: #00BD6E dotted 1px;
+}
+
+/* Style the hamburger menu */
+.top-nav a.icon {
     display: flex;
+    font-size: 2rem;
+    padding: 1rem;
+    justify-content: center;
     align-items: center;
-    color: #ffffff;
-    padding-left: 1rem;
-  } 
+}
+
+/* Add a grey background color on mouse-over */
+.top-nav a:hover {
+color: #00BD6E;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+width: 100%;
+display: flex;
+align-items: center;
+color: #ffffff;
+padding-left: 1rem;
+} 
 
   /* flexbox nav */
 .seen-nav {
@@ -271,7 +275,7 @@ footer ul {
     border-top: #00BD6E 1px solid;
     border-bottom: #00BD6E 1px solid;
     padding: 0.3rem;
-    
+    margin-bottom: 0.5rem;
 }
 
 .yt-title h2 {
