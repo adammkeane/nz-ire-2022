@@ -242,6 +242,10 @@ footer ul {
     text-decoration: underline;
 }
 
+#sign-up h3 {
+    margin-top: 2rem;
+}
+
 
 /* homepage media queries */
 
