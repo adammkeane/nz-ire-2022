@@ -50,18 +50,20 @@ display: none;
 
 /* Style navigation menu links */
 .top-nav a {
-color: white;
-text-decoration: none;
-display: block;
-padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
 #myLinks {
-padding-bottom: 0;
-display: flex;
-font-size: 1rem;
-border-top: #00BD6E solid 1px;
-text-align: center;
+    padding-bottom: 0;
+    display: flex;
+    font-size: 1rem;
+    border-top: #00BD6E solid 1px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 
 /* Style the hamburger menu */
@@ -75,18 +77,18 @@ text-align: center;
 
 /* Add a grey background color on mouse-over */
 .top-nav a:hover {
-color: #00BD6E;
+    color: #00BD6E;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-width: 100%;
-display: flex;
-align-items: center;
-color: #ffffff;
-padding-left: 1rem;
-justify-content: center;
-text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 1rem;
+    justify-content: center;
+    text-align: center;
 } 
 
   /* flexbox nav */
@@ -468,6 +470,10 @@ footer ul {
 
 #form-one h2{
     margin-bottom: 0.5rem;
+}
+
+#form-one input {
+    border-radius: 3px;
 }
 
 #form-two {
