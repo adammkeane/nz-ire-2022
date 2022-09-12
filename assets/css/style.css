@@ -450,6 +450,11 @@ footer ul {
     margin-top: 1rem;
 }
 
+#form-one h3{
+    text-align: center;
+}
+
+
 #form-two h3 {
     margin-top: 1.5rem;
 }
@@ -470,6 +475,7 @@ footer ul {
 
 #form-one h2{
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 #form-one input {
