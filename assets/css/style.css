@@ -267,7 +267,19 @@ footer ul {
     #home-test1, #home-test2, #home-test3 {
         height: 20vh;
     }
+
+    h1 {
+        font-size: 1.2rem;
+    }
 }
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
         
 /* test match pages CSS */
 
