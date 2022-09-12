@@ -33,6 +33,7 @@ hr {
 /* Style the navigation menu */
 nav {
     margin-bottom: 1rem;
+    border-bottom: #ffffff solid 1px;
 }
 
 .top-nav {
@@ -59,8 +60,8 @@ padding: 0.5rem 1rem;
 padding-bottom: 0;
 display: flex;
 font-size: 1rem;
-border-top: #00BD6E dotted 1px;
-border-bottom: #00BD6E dotted 1px;
+border-top: #00BD6E solid 1px;
+text-align: center;
 }
 
 /* Style the hamburger menu */
@@ -84,6 +85,8 @@ display: flex;
 align-items: center;
 color: #ffffff;
 padding-left: 1rem;
+justify-content: center;
+text-align: center;
 } 
 
   /* flexbox nav */
@@ -120,6 +123,8 @@ padding-left: 1rem;
     align-items: center;
     text-align: center;
     margin: 1rem;
+    border-bottom: #ffffff 1px solid;
+    padding-bottom: 3rem;
 }
 
 .home-images p {
@@ -254,10 +259,6 @@ footer ul {
 /* homepage media queries */
 
 @media (max-width: 700px) {
-    .active {
-        justify-content: center;
-        text-align: center;
-    }
 
     p {
         font-size: 1rem;
