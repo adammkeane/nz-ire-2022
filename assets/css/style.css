@@ -131,6 +131,17 @@ text-align: center;
     max-width: 70%;
 }
 
+.home-images a {
+    color: #ffffff;
+    text-align: center;
+    max-width: 70%;
+}
+
+.home-images a:hover {
+    color: #00BD6E;
+}
+
+
 /* footer styling */
 
 footer li {
@@ -346,7 +357,6 @@ footer ul {
     color: #ffffff;
     text-align: center;
     max-width: 70%;
-    margin-top: 2rem;
 }
 
 .city-info a:hover {
