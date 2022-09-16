@@ -101,6 +101,10 @@ display: none;
 
 /* home main images and text*/
 
+.home-images h2 {
+    margin-bottom: 1rem;
+}
+
 #home-image1 {
     width: 90%;
     height: 20vh;
@@ -362,7 +366,7 @@ footer ul {
     margin-top: 2rem;
 }
 
-.city-info h3 {
+.city-info h3, .home-images h2 {
     border-bottom: #00BD6E solid 1px;
 }
 
