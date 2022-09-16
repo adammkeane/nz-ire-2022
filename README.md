@@ -22,7 +22,7 @@ This website aims to provide a convenient place to find all the relevant info ab
     * A site wide favicon will be implemented with a custom emblem.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-### Landing Page
+### Home Page
 * Introductory text and images
     * Provides an overview of what the site aims to provide.
     * Uses the logos of the two teams in question.
@@ -145,7 +145,68 @@ Each item opened a new tab when clicked as expected and correct hover color was 
 ### Validator Testing 
 
 - HTML
-  - One error was returned when passing through the official [W3C validator](https://validator.w3.org)
+  - No errors were found when passing through the official [W3C validator](https://validator.w3.org)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+### Unfixed Bugs
+Flavicon not showing up on deployed site.
+
+## Deployment
+
+### Version Control
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m 'commit message'``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://adammkeane.github.io/nz-ire-2022/ 
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits 
+
+* [W3Schools' Navigation Menu](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
+    * Code was used from this site to create the hamburger navigation bar.
+* [Flexbox Froggy](https://flexboxfroggy.com/)
+    * This game was very helpful in teaching me how to use Flexbox.
+
+
+### Content 
+
+* Introduction text on home page is from [Wikipedia article](https://en.wikipedia.org/wiki/2022_Ireland_rugby_union_tour_of_New_Zealand).
+* Text on first test match page is from [Wikipedia article](https://en.wikipedia.org/wiki/Auckland).
+* Text on second test match page is from [Wikipedia article](https://en.wikipedia.org/wiki/Dunedin).
+* Text on third test match page is from [Wikipedia article](https://en.wikipedia.org/wiki/Wellington).
+
+### Media
+
+* Home team logos came from (find websites)
+* Home page city images came from (find websites)
+* Youtube videos on the test match pages came from
