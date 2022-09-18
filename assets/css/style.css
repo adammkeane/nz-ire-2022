@@ -323,10 +323,12 @@ footer ul {
     border-bottom: #00BD6E 1px solid;
     padding: 0.3rem;
     margin-bottom: 0.5rem;
+    max-width: 70%;
 }
 
 .yt-title h2 {
     font-size: 1.3rem;
+    display: inline-block;
 }
 
 .yt-embed {
