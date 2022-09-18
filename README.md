@@ -3,7 +3,7 @@ python3 -m http.server
 
 This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them. View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
 
-![Mockup](docs/readmeimages/mockup.PNG)
+![Mockup](docs/readme-images/mockup.PNG)
 
 ## Features
 
@@ -38,11 +38,17 @@ Nav Menu Closed
     * Uses the logos of the two teams in question.
     * Provides a link to wikipedia for more information about the tour.
 
+![Introduction](docs/readme-images/home-page1.PNG)
+
 * The three test images/links
     * Provides hopefully eye catching images to direct the user to the three main pages of the site (information about each of the test matches)
 
+![Test Matches](docs/readme-images/home-page2.PNG)
+
 * Sign up explainer
     * Provides reasons why a user may want to sign up and provides them with links to do so.
+
+![Sign Up](docs/readme-images/home-page3.PNG)
 
 ### The Three Test Match Pages
 * Introductory info and embdeded Youtube video.
