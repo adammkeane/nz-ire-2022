@@ -420,7 +420,7 @@ footer ul {
 
 @media (max-width: 700px) {
     .yt-title h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .yt-title p {
@@ -428,7 +428,7 @@ footer ul {
     }
 
     .city-info h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     
     .city-info p {
