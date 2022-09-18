@@ -1,9 +1,9 @@
 python3 -m http.server
 # Ireland's 2022 Rugby Tour of New Zealand
 
-This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find the information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them. View the live site [here](https://adammkeane.github.io/nz-ire-2022/)
+This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them. View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
 
-![Mockup](docs/readme_images/mockup.PNG)
+![Mockup](docs/readmeimages/mockup.PNG)
 
 ## Features
 
@@ -13,18 +13,24 @@ This website aims to provide a convenient place to find all the relevant info ab
     * This will allow users to easily navigate between the pages within the site on any size device. 
     * Uses an expandable and contractable hamburger menu design to allow it to be hidden when not needed.
 
-![Nav Menu Open](docs/readme_images/nav-menu-open.PNG)
+Nav Menu Open
+![Nav Menu Open](docs/readme-images/nav-menu-open.PNG)
 
-![Nav Menu Closed](docs/readme_images/nav-menu-closed.PNG)
+Nav Menu Closed
+![Nav Menu Closed](docs/readme-images/nav-menu-closed.PNG)
 
 * Footer
-    * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
+    * This will contain icons as links to social media websites that will open in new tabs. 
+    * Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
+    * This will allow users to a way follow our social media content and stay up to date with our porjects.
 
-![Footer](docs/readme_images/footer.PNG)
+![Footer](docs/readme-images/footer.PNG)
 
 * Favicon
-    * A site wide favicon will be implemented with a custom emblem.
+    * A site wide favicon has been implemented with a custom emblem.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
+
+![Favicon](docs/readme-images/favicon.PNG)
 
 ### Home Page
 * Introductory text and images
