@@ -34,19 +34,21 @@ Nav Menu Closed
 
 ### Home Page
 * Introductory text and images
-    * Provides an overview of what the site aims to provide.
-    * Uses the logos of the two teams in question.
-    * Provides a link to wikipedia for more information about the tour.
+    * Provides users an overview of what the site aims to provide.
+    * Uses the logos of the two teams in question to quickly show viewers the two teams involved.
+    * Provides users a link to wikipedia for more information about the tour, if they want further details.
 
 ![Introduction](docs/readme-images/home-page1.PNG)
 
 * The three test images/links
-    * Provides hopefully eye catching images to direct the user to the three main pages of the site (information about each of the test matches)
+    * Provides hopefully eye catching images to direct the user to the three main pages of the site (information about each of the test matches).
+    * These image/text links will allow the user to access these main site pages.
 
 ![Test Matches](docs/readme-images/home-page2.PNG)
 
 * Sign up explainer
     * Provides reasons why a user may want to sign up and provides them with links to do so.
+    * Signing up will allow users to stay up to date with future projects of the website creators.
 
 ![Sign Up](docs/readme-images/home-page3.PNG)
 
