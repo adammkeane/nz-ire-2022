@@ -331,6 +331,10 @@ footer ul {
     display: inline-block;
 }
 
+.yt-title p {
+    display: inline-block;
+}
+
 .yt-embed {
     position: relative;
     overflow: hidden;
