@@ -2,7 +2,7 @@
 
 This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them, and they can use this site to save them time searching for that info themselves. 
 
-The target audience for this site would be rugby fans, or even sports fan more widely. This was quite a historic tour, potentially Ireland's greatest ever sportint acheivement, so I think many people would have. 
+The target audience for this site would be rugby fans, or even sports fan more widely. This was quite an historic tour, potentially Ireland's greatest ever sporting acheivement, so it may have a wider appeal than die-hard rugby fans.
 
 View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
 
@@ -137,7 +137,7 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected.
+One padding issue found and fixed. Details in the [Bugs Section](#Bugs)
 
 Website was also opened on the following devices and no responsive issues were seen:
 
