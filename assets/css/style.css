@@ -446,7 +446,7 @@ footer ul {
  }
 
 .checkbox {
-    margin: 0.3rem;
+    margin: 0 0.3rem;
     display: flex;
     justify-content: space-between ;
     align-items: center;
