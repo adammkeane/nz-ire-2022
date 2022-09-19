@@ -1,6 +1,10 @@
 # Ireland's 2022 Rugby Tour of New Zealand
 
-This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them. View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
+This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them, and they can use this site to save them time searching for that info themselves. 
+
+The target audience for this site would be rugby fans, or even sports fan more widely. This was quite a historic tour, potentially Ireland's greatest ever sportint acheivement, so I think many people would have. 
+
+View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
 
 ![Mockup](docs/readme-images/mockup.PNG)
 
@@ -193,15 +197,15 @@ Each item opened a new tab when clicked as expected and correct hover color was 
 
 ![Match Pages HTML Test](docs/readme-images/matches-w3-html-test.PNG)
 
-F
-
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 ![CSS Test](docs/readme-images/w3-css-test.PNG)
 
-### Unfixed Bugs
-Flavicon not showing up on deployed site.
+### Bugs
+- Flavicon emblem was not showing up on deployed site, but it was showing up on the site generated from the GitPod workspace. From searching online, after being pointed in the right direction by my very helpful mentor, I found that this was caused by using absolute files paths, instead of relative files paths, for my Flavicon images. When changed to relative files paths, the Flavicon emblems did show up when using the deployed site.
+
+- When testing site on small screen sizes, the site would start to require horizontal scrolling, which was not intended. Using web developer tools on Google Chrome, it became clear that this was being caused by padding on the footer anchor elements. I used Flexbox 'space-around' to separate the anchor elements instead, and the site no longer needed to horizontally scroll on smaller screen sizes.
 
 ## Deployment
 

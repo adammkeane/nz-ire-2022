@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/* site wide styling */
 * {
     margin: 0;
     padding: 0;
@@ -100,7 +101,6 @@ display: none;
 }
 
 /* home main images and text*/
-
 .home-images h2 {
     margin-bottom: 1rem;
 }
@@ -174,7 +174,6 @@ footer ul {
 }
 
 /* homepage test match section */
-
 #home-test1 {
     background: url(../images/auckland.jpg) no-repeat center center;
 }
@@ -235,9 +234,7 @@ footer ul {
     border:#00BD6E 1px solid;
 }
 
-
 /* homepage signup section */
-
 #sign-up {
     display: flex;
     flex-direction: column;
@@ -274,49 +271,8 @@ footer ul {
 #sign-up h3 {
     margin-top: 2rem;
 }
-
-
-/* homepage media queries */
-
-@media (max-width: 700px) {
-
-    p {
-        font-size: 1rem;
-    }
-
-    #home-test1, #home-test2, #home-test3 {
-        height: 20vh;
-    }
-
-    h1 {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 500px) {
-
-    h1 {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 415px) {
-
-    h1 {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 371px) {
-
-    h1 {
-        font-size: 0.75rem;
-    }
-}
-
-        
+    
 /* test match pages CSS */
-
 .yt-title {
     text-align: center;
     border-top: #00BD6E 1px solid;
@@ -363,7 +319,6 @@ footer ul {
 }
 
 /* city info section of test page */
-
 .city-info {
     display: flex;
     flex-direction: column;
@@ -393,7 +348,6 @@ footer ul {
 }
 
 /* map section of test match page */
-
 #map-section h3 {
     border-bottom: #00BD6E solid 1px;
 }
@@ -405,7 +359,6 @@ footer ul {
     align-items: center;
     margin-top: 3rem;
 }
-
 
 .map-wrapper {
     position: relative;
@@ -426,31 +379,7 @@ footer ul {
     background-color: #00BD6E;
 }
 
-/* test match pages media queries */
-
-@media (max-width: 700px) {
-    .yt-title h2 {
-        font-size: 1.2rem;
-    }
-
-    .yt-title p {
-        font-size: 1rem;
-    }
-
-    .city-info h3 {
-        font-size: 1.2rem;
-    }
-    
-    .city-info p {
-        font-size: 1rem;
-    }
-}
-
-
-
-
 /* sign up page */
-
 .form-section {
     display: flex;
     justify-content: center;
@@ -470,7 +399,6 @@ footer ul {
 #form-one h3{
     text-align: center;
 }
-
 
 #form-two h3 {
     margin-top: 1.5rem;
@@ -545,7 +473,6 @@ footer ul {
     background-color: #00BD6E;
 }
 
-
 /* Media queries for all pages */
 @media (min-width: 600px) {
     footer {
@@ -569,4 +496,56 @@ footer ul {
     footer {
         max-width: 25%;
     }   
+}
+
+@media (max-width: 700px) {
+
+    p {
+        font-size: 1rem;
+    }
+
+    #home-test1, #home-test2, #home-test3 {
+        height: 20vh;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .yt-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .yt-title p {
+        font-size: 1rem;
+    }
+
+    .city-info h3 {
+        font-size: 1.2rem;
+    }
+    
+    .city-info p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 415px) {
+
+    h1 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 371px) {
+
+    h1 {
+        font-size: 0.75rem;
+    }
 }
