@@ -32,6 +32,12 @@ Nav Menu Closed
 
 ![Favicon](docs/readme-images/favicon.PNG)
 
+* Custom 404 Page
+    * A custom 404 page was implemented and will display if a user navigates to a broken link.
+    * A link is also provided back to the website's home page. This allows users to understand what went wrong and get them back to where they want to be.
+
+![404](docs/readme-images/404.PNG)
+
 ### Home Page
 * Introductory text and images
     * Provides users an overview of what the site aims to provide.
