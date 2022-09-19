@@ -1,4 +1,3 @@
-python3 -m http.server
 # Ireland's 2022 Rugby Tour of New Zealand
 
 This website aims to provide a convenient place to find all the relevant info about Irelands's 2022 rugby tour of New Zealand. I found that I was searching for a few different wesbites to find information about the tour, so this website aims to bring all the sites I wanted into one place. Hopefully, others will also find the sites I looked for of interest to them. View the live site [here.](https://adammkeane.github.io/nz-ire-2022/)
@@ -190,8 +189,16 @@ Each item opened a new tab when clicked as expected and correct hover color was 
 - HTML
   - No errors were found when passing through the official [W3C validator](https://validator.w3.org)
 
+![Index HTML Test](docs/readme-images/index-w3-html-test.PNG)
+
+![Match Pages HTML Test](docs/readme-images/matches-w3-html-test.PNG)
+
+F
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Test](docs/readme-images/w3-css-test.PNG)
 
 ### Unfixed Bugs
 Flavicon not showing up on deployed site.
@@ -253,6 +260,7 @@ The project will now of been cloned on your local machine for use.
 
 ### Media
 
-* Home team logos came from (find websites)
-* Home page city images came from (find websites)
-* Youtube videos on the test match pages came from
+* Home team logos came from (https://logoeps.com/all-blacks-logo/583/ and https://seeklogo.com/vector-logo/213096/irish-rugby-football-union).
+* Home page city images came from (https://unsplash.com/photos/v9FIx0J-KAA , https://unsplash.com/photos/qNc7-0ADts8 and https://unsplash.com/photos/esv9rsglRSc).
+* Youtube videos on the test match pages came from the official All Blacks Youtube Channel (https://www.youtube.com/c/AllBlacks).
+* Maps used are from Googles Maps (https://www.google.com/maps).
