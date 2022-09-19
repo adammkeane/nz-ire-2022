@@ -173,6 +173,13 @@ Testing was performed to ensure all navigation links on the respective pages, na
 
 Links on all pages navigated to the correct pages as exptected.
 
+**Form Testing**
+
+The form on the signup page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input.
+- Tried inputting all information correctly, and was taken to the expected form summary page from Code Insitute.
+- Tried inputting a non-email address into the email addess field. The submit button rejected subimssion as expected.
+- Tried leaving the name field black and clicking sumbit. As expected, the submit button rejected subimssion.
+
 **Footer Social Media Icons / Links**
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
 
