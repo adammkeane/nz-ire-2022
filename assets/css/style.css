@@ -394,6 +394,10 @@ footer ul {
 
 /* map section of test match page */
 
+#map-section h3 {
+    border-bottom: #00BD6E solid 1px;
+}
+
 #map-section {
     display: flex;
     flex-direction: column;
