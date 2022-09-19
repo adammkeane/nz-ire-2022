@@ -56,20 +56,32 @@ Nav Menu Closed
 * Introductory info and embdeded Youtube video.
     * Provides the basic game informations, such as date and location.
     * Provides embeded Youtube video that won't autoplay when the page opens. The user can choose when and if they want to watch.
+    * This allows users to see the most important moments of the match, and get a good sense of the key info about the match.
+
+![Youtube](docs/readme-images/youtube.PNG)
 
 * City information
     * Provides some hopefully interesting nuggets about the city the match was played in.
     * Provides a link to the city's wikipedia page for further information.
+    * This allows users to get more deeply involved in the tour. They can learn some historical background about the city and country the tour is taking place in.
+
+![City Info](docs/readme-images/city-info.PNG)
 
 * Embedded Google map
     * Provides a map view of the stadium where the match was played.
     * User may explore the surrounding area on the map if they like.
+    * This, again, allows users to get more deeply involved in the tour.
+
+![Google Map](docs/readme-images/gmap.PNG)    
 
 ### Sign Up Page
 * Sign up form
     * Provides a hopefully simple form which user can fill out if they would like to kept up to date with our other projects.
     * The form will require a name and an email address before submitting. 
     * User can optionally select to specific if they are interested in any particular sports that will likely create projects for in the future.
+    * Signing up will allow users to stay up to date with future projects of the website creators.
+
+![Sign Up Form](docs/readme-images/signup.PNG)
 
 ### Features Left to Implement
 
