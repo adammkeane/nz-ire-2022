@@ -226,7 +226,10 @@ The project will now of been cloned on your local machine for use.
     * Code was used from this site to create the hamburger navigation bar.
 * [Flexbox Froggy](https://flexboxfroggy.com/)
     * This game was very helpful in teaching me how to use Flexbox.
-
+* [Love Running Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/)
+    * Code was used from this Code Institute project to create the footers and sign up form.
+* [The Web Developer Bootcamp 2022](https://www.udemy.com/course/the-web-developer-bootcamp/)
+    * This course was a helpful supplement to the Code Institute course, and was helpful in solidifying the concepts needed to create this website.
 
 ### Content 
 

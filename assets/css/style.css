@@ -30,7 +30,7 @@ hr {
     text-decoration: underline;
 }
 
-/* Style the navigation menu */
+/* Style the navigation menu. Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 nav {
     margin-bottom: 1rem;
     border-bottom: #ffffff solid 1px;
@@ -43,12 +43,12 @@ nav {
     color: #00BD6E;
 }
   
-/* Hide the links inside the navigation menu (except for logo/home) */
+/* Hide the links inside the navigation menu (except for logo/home). Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 .top-nav #myLinks {
 display: none;
 }
 
-/* Style navigation menu links */
+/* Style navigation menu links. Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 .top-nav a {
     color: white;
     text-decoration: none;
@@ -66,7 +66,7 @@ display: none;
     padding-top: 0.5rem;
 }
 
-/* Style the hamburger menu */
+/* Style the hamburger menu. Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 .top-nav a.icon {
     display: flex;
     font-size: 2rem;
@@ -80,7 +80,7 @@ display: none;
     color: #00BD6E;
 }
 
-/* Style the active link (or home/logo) */
+/* Style the active link (or home/logo). Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 .active {
     width: 100%;
     display: flex;
@@ -91,7 +91,7 @@ display: none;
     text-align: center;
 } 
 
-  /* flexbox nav */
+  /* flexbox nav. Used code from W3Schools (https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) */
 .seen-nav {
     width: 100%;
     display: flex;
