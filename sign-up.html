@@ -102,6 +102,25 @@
     </footer>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/6b27cf5798.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script> 
+    <script src="assets/js/script.js"></script>
+    <script>
+        (function (g, e, n, es, ys) {
+            g['_genesysJs'] = e;
+            g[e] = g[e] || function () {
+                (g[e].q = g[e].q || []).push(arguments)
+            };
+            g[e].t = 1 * new Date();
+            g[e].c = es;
+            ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+        })(window, 'Genesys', 'https://apps.mypurecloud.de/genesys-bootstrap/genesys.min.js', {
+            environment: 'prod-euc1',
+            deploymentId: 'fdb6dc02-07d3-4a48-a643-ca55d67a117c'
+        });
+
+        Genesys("subscribe", "MessagingService.fileUploaded", function({ data }) {
+            console.log('zap33', data);
+        });    
+
+    </script>
 </body>
 </html>
